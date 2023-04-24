@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0e6ef;
+}
+
+
+
+.container{
+    max-width: 80%;
+    margin: 50px auto;
+    display: grid;
+    justify-content: center;
+    gap: 12px;
+    grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 1fr);
+
+
+}
+
+.background-img{
+    background-image: url("bg-pattern-quotation.svg");
+background-repeat: no-repeat;
+background-position: 80% 10%;
+
+}
+
+.column-one{
+background-color: #733fc8;
+border-radius: 17px;
+padding: 17px 40px;
+grid-column: 1 / 3;
+
+
+}
+
+.column-one .section-flex img{
+    border: 2px solid grey;
+}
+
+.column-one p{
+color: lightgrey;
+}
+
+
+
+
+.img-profile img{
+    border-radius: 100%;
+}
+
+.section-flex{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.content h4{
+color: white;
+padding-bottom: 3px;
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.content p{
+    color: lightgrey;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.column-two{
+    background-color:#49556b;
+    padding: 17px 40px;
+    border-radius: 17px;
+  
+}
+
+.column-two img{
+    border: 2px solid grey;
+}
+
+
+.column-three{
+background-color: white;
+padding: 17px 40px;
+    border-radius: 17px;
+    box-shadow: 2px 3px 8px;
+    grid-row:  span 2;
+
+}
+
+.column-three .content h4{
+    color: black;
+    padding-bottom: 3px;
+}
+
+.column-three .content p{
+    color: grey;
+}
+
+#title-three{
+    color: rgb(0, 0, 0 , 0.8);
+    padding-bottom: 17px;
+    font-size: 23px;
+}
+
+.column-four{
+background-color: white;
+padding: 17px 40px;
+    border-radius: 17px;
+    box-shadow: 2px 3px 8px;
+ 
+}
+
+.column-four .content h4{
+    color: black;
+    padding-bottom: 3px;
+}
+
+.column-four .content p{
+    color: grey;
+}
+
+#title-four{
+    color: rgb(0, 0, 0 , 0.8);
+    padding-bottom: 17px;
+    font-size: 23px;
+}
+
+
+.column-five{
+    background-color: rgb(0, 0, 0 , 0.9);
+    color: white;
+    padding: 17px 40px;
+    border-radius: 17px;
+    grid-column: 2 / 4;
+   
+}
+
+.column-five img{
+    border: 2px solid purple;
+}
+
+
+
+#paraph{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 5000; 
+    font-size: 13px;
+    line-height: 20px;
+    color: #103a63;
+    
+  
+}
+
+#parapher{
+    color: #c4cddc;
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-weight: 5000; 
+font-size: 13px;
+line-height: 20px;
+}
+
+#titles{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 6000;
+    color: #fffefd;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+#title{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 6000; 
+    color:#49556b;
+    padding-bottom: 12px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .container{
+        margin: 20px auto;
+        max-width: 90%;
+        display: grid;
+        gap: 12px;
+        grid-template-columns: auto;
+        grid-template-rows: max-content;
+    
+    }
+
+    .column-one{
+        background-color: purple;
+        border-radius: 17px;
+        padding: 17px 40px;
+        grid-column: 1 / 2;
+        
+        }
+
+        .column-two{
+            background-color: grey;
+            padding: 17px 40px;
+            border-radius: 17px;
+          grid-column: 1 / 2;
+        }      
+
+
+        .column-three{
+            background-color: white;
+            padding: 17px 40px;
+                border-radius: 17px;
+                box-shadow: 2px 3px 8px;
+                grid-column: 1 / 2;
+            
+            }
+            .column-four{
+                background-color: white;
+                padding: 17px 40px;
+                    border-radius: 17px;
+                    box-shadow: 2px 3px 8px;
+                    grid-column: 1 / 2;
+                 
+                }   
+                .column-five{
+                    background-color: rgb(0, 0, 0 , 0.9);
+                    color: white;
+                    padding: 17px 40px;
+                    border-radius: 17px;
+                    grid-column: 1/ 2;
+                   
+                }
+
+       
+
+            }
+
+    
